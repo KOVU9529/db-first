@@ -1,0 +1,14 @@
+-Modellizzare in un file di testo come visto questa mattina, 
+la struttura di una tabella per memorizzare tutti i dati 
+riguardanti delle auto usate messe in vendita da un concessionario.
+
+Nome tabella:Concessionario di auto usate
+
+id -  BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+casa automobilistica - VARCHAR(30) - NULL
+nome modello auto - VARCHAR(150) - NOTNULL - INDEX
+caratteristiche tecniche - TEXT - NULL
+anno di fabbricazione -  YEAR - NULL
+anni usato - YEAR - NOTNULL
+condizioni usato -  TEXT -NOTNULL
+prezzo - DECIMAL(9, 2) - NOTNULL
